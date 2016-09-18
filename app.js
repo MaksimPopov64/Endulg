@@ -19,10 +19,11 @@
 
         if($scope.sorry=="Простите" ){
           $scope.color = "color:green";
-          $scope.borderColor = "border-color:red";
           $scope.messageOutput = "Прощён";
 
         }else{
+          $scope.color = "color:red";
+          $scope.borderColor = "border-color:red";
           $scope.messageOutput = "Ты охуел";
         }
       }
