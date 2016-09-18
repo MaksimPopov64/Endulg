@@ -17,7 +17,7 @@
         $scope.color = "color:green";
         $scope.borderColor = "border-color:green";
 
-        if($scope.sorry.toUpperCase()=="ПРОСТИТЕ" ){
+        if($scope.sorry.toUpperCase().indexOf('ПРОСТИТЕ')!=-1){
           $scope.color = "color:green";
           $scope.messageOutput = "Прощён";
 
